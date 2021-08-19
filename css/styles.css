@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url(../img/fondo.svg);
+  color: #fff;
+  min-height: 100vh;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  margin: 4.1rem 22rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 31px;
+}
+
+nav ul li {
+  padding: 1.8rem 1.3rem;
+}
+
+nav ul li .active {
+  font-weight: 700;
+}
+
+nav ul img {
+  border-radius: 100px;
+}
+
+.hero-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-container .hero-left {
+  width: 800px;
+  margin: 1rem 6rem;
+}
+
+.hero-container .hero-left ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.hero-container .hero-left ul li {
+  padding: 1rem;
+}
+
+.hero-container .hero-left h1 {
+  font-size: 72px;
+  line-height: 108px;
+}
+
+.hero-container .hero-left p {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+}
+/*# sourceMappingURL=styles.css.map */
